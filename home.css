@@ -1,0 +1,106 @@
+.infopanel{
+    margin: 2vw;
+    padding: 2.5vw;
+    background-color: white;
+    border-radius: 10px; 
+    font-family: Montserrat;
+    display: inline-block;
+    z-index: 200;
+}
+body{
+    background-image: url("blurb.jpg");
+    background-attachment: fixed;
+}
+.infopanel-left{
+    width: 42vw;
+}
+.infopanel-right{
+    width: 30vw;
+    float: inline-end;
+}
+.infocontain{
+    width: 90vw;
+    margin: auto;
+}
+.projectlist{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: none;
+}
+.ifrscale{
+    border-radius: 10px;
+    margin: 6%;
+    margin-right: 7.5%;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-top: 0px;
+}
+hr{
+    margin: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: whitesmoke;
+}
+.ifrcontain{
+    display: inline-block;
+    width: 107% !important;
+    margin: auto;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.icons{
+    width: 40px;
+    vertical-align: middle;
+}
+.buttonvisit{
+    padding:15px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    background-color: white;
+    width: 80%;
+    font-size: large;
+    font-family: Montserrat;
+}
+.buttonvis{
+    padding:15px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 2px solid whitesmoke;
+    background-color: white;
+    width: 45%;
+    font-size: large;
+    font-family: Montserrat;
+    margin: none;
+    cursor:pointer;
+    position: relative;
+}
+.icondiv{
+    width: 92.5%;
+    text-align: center;
+}
+span{
+    vertical-align: middle;
+}
+@media (max-width: 1120px) {
+    .infopanel{
+        width: 90%;
+        float: none;
+    }
+    .ifrcontain{
+        max-width: 107%;
+    }
+}
+
+.projinfo{
+    background-color: white;
+    border: 0px solid whitesmoke;
+    border-radius: 10px;
+    width: 86%;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
